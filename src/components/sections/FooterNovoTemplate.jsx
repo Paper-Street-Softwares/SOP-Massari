@@ -228,7 +228,6 @@ function FooterNovoTemplate({
               >
                 Esse site não faz parte do Google LLC nem do Facebook Inc. e não
                 oferecemos nenhum tipo de serviço oficial do governo.
-                Trabalhamos exclusivamente com serviços jurídicos.
               </p>
             </div>
           </div>
