@@ -102,7 +102,7 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
                   {ButtonModal && (
                     <Button
                       onClick={onClick}
-                      className="bg-transparent mt-4 border-none shadow-primary/20 font-secondFont py-0 uppercase font-bold text-primaryLight/90 transition-all px-0 hover:underline outline-none flex items-center gap-2"
+                      className={`bg-transparent mt-4 border-none shadow-primary/20 font-secondFont py-0 uppercase font-bold transition-all px-0 hover:underline outline-none flex items-center gap-2 ${textDestaque}`}
                     >
                       {content.texts.about.buttonModalLabelAbout}
                       <ArrowRight width={24} height={24} />

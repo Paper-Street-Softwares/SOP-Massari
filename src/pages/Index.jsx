@@ -49,8 +49,8 @@ export default function Index() {
           <Suspense fallback={null}>
             <FeaturesNovaTemplate colorMode={colorMode} />
             {/* <FeaturesSemImage colorMode={colorMode} /> */}
-            <AboutNovoTemplate colorMode={colorMode} ButtonModal={false} />
-            {/* <SocialMediaTemplate colorMode={colorMode} /> */}
+            <AboutNovoTemplate colorMode={colorMode} ButtonModal={true} />
+            <SocialMediaTemplate colorMode={colorMode} />
             <CtaNovoTemplate colorMode={colorMode} />
             <StepsNovoTemplate colorMode={colorMode} />
             <FaqNovoTemplate colorMode={colorMode} />

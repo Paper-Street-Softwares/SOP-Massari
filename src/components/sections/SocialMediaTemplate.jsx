@@ -46,7 +46,7 @@ function SocialMediaTemplate({ colorMode }) {
   }
 
   return (
-    <SectionArea paddingtop={false} className={backgroundMode}>
+    <SectionArea className={backgroundMode}>
       <SectionWrapper>
         <section>
           <div className="container mx-auto">

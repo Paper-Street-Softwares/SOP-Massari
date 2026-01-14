@@ -311,41 +311,42 @@ const content = {
         img: aboutImg,
         alt: 'Imagem ilustrativa da Seção Sobre',
       },
-      miniTag: 'A_Definir',
-      FirstPartTitle: 'A_Definir',
+      miniTag: 'QUEM É A MASSARI PECUÁRIA',
+      FirstPartTitle: 'Nossa',
       DestaquePartTitle: (
         <p>
-          <span className="italic"> A_Definir</span>{' '}
+          <span className="italic"> trajetória</span>{' '}
         </p>
       ),
       SecondPartTitle: '',
-      subtitle: 'A_Definir',
+      subtitle:
+        'Nutrição animal de alta performance para uma pecuária mais produtiva e eficiente.',
       paragraph: (
         <div>
-          A_Definir
-          <br />
-          A_Definir
-          <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          A Massari Pecuária é especializada em nutrição animal de alta
+          performance para a pecuária moderna. Desenvolvemos soluções minerais
+          completas que contribuem diretamente para a saúde, produtividade e
+          rentabilidade de rebanhos bovinos em todo o Brasil.
         </div>
       ),
       buttonModalLabelAbout: 'Continuar lendo',
       modal: (
         <p className="text-mutedForeground font-secondFont">
-          A_Definir
+          A Massari Pecuária é especializada em nutrição animal de alta
+          performance para a pecuária moderna. Desenvolvemos soluções minerais
+          completas que contribuem diretamente para a saúde, produtividade e
+          rentabilidade de rebanhos bovinos em todo o Brasil.
           <br />
           <br />
-          A_Definir
-          <br />
-          <br />
-          A_Definir
+          Nossa tecnologia une suplementação mineral balanceada com probióticos
+          e prebióticos, indo além da nutrição básica. Fortalecemos o sistema
+          imunológico, melhoramos a eficiência reprodutiva e impulsionamos o
+          ganho de peso e a produção de leite, com resultados comprovados no
+          campo.
         </p>
       ),
       paragraphModalCta: 'Entre em contato',
-      titleModal: 'A_Definir',
+      titleModal: 'Nossa trajetória',
       ctaButtonAriaLabel: 'Botão para entrar em contato',
       ctaButtonText: 'Entre em contato',
       aboutSocial: {
@@ -357,7 +358,7 @@ const content = {
         miniTag: 'REDES SOCIAIS',
         title: 'Conecte-se conosco',
         subtitle:
-          'Aproveite nossas redes sociais para mantermos contato e ficar por dentro dos lançamentos, novidades e atualizações do mercado imobiliário.',
+          'Informação, conhecimento e soluções para quem vive a pecuária no dia a dia.',
         paragraph: <p></p>,
         labelInstagram: 'Siga-nos no Instagram',
         labelFacebook: 'Siga-nos no Facebook',
