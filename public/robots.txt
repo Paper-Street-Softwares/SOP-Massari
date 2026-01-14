@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.negreirosadvocaciajuridica.com.br/sitemap.xml
