@@ -372,8 +372,9 @@ const content = {
       miniTag: 'PASSO A PASSO',
       title: (
         <h1>
-          A_Definir
-          <span className="destaque italic font-light"> A_Definir</span>
+          Como funciona nosso
+          <span className="destaque italic font-light"> atendimento</span>{' '}
+          técnico
         </h1>
       ),
       subtitle: '',
@@ -382,23 +383,27 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: 'A_Definir',
-          cardDescription: 'A_Definir',
+          cardTitle: 'Diagnóstico do rebanho',
+          cardDescription:
+            'Analisamos o sistema produtivo, manejo, objetivos e desafios para entender a real necessidade do rebanho.',
         },
         card2: {
           stepNumber: 2,
-          cardTitle: 'A_Definir',
-          cardDescription: 'A_Definir',
+          cardTitle: 'Análise nutricional',
+          cardDescription:
+            'Avaliamos as demandas nutricionais e indicamos a suplementação mais adequada para cada fase da produção.',
         },
         card3: {
           stepNumber: 3,
-          cardTitle: 'A_Definir',
-          cardDescription: 'A_Definir',
+          cardTitle: 'Definição da solução',
+          cardDescription:
+            'Desenvolvemos uma estratégia nutricional personalizada, alinhada à realidade da propriedade e aos resultados esperados.',
         },
         card4: {
           stepNumber: 4,
-          cardTitle: 'A_Definir',
-          cardDescription: 'A_Definir',
+          cardTitle: 'Acompanhamento e resultados',
+          cardDescription:
+            'Monitoramos o desempenho do rebanho e ajustamos as soluções para garantir resultados consistentes no campo.',
         },
       },
     },
