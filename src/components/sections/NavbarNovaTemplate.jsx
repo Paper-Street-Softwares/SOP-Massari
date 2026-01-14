@@ -35,7 +35,7 @@ function NavbarNovaTemplate({
 
   switch (colorMode) {
     case 'light':
-      backgrondMode = 'bg-primaryDark'
+      backgrondMode = 'bg-primaryDark/90'
       textOpacity = 'text-corOutrosTextosBranca'
       hoverLinks = ' bg-gradient-to-r from-primaryDark to-primaryDark '
       colorMenu = 'text-white'

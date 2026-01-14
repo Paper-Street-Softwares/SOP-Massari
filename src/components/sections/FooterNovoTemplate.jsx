@@ -31,10 +31,10 @@ function FooterNovoTemplate({
   let text, textOpacity, iconColor, backgroundMode
   switch (colorMode) {
     case 'light':
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      iconColor = 'text-primaryDark/60'
-      backgroundMode = 'bg-secondary/60'
+      text = 'text-corTitulosBranca'
+      textOpacity = 'text-corOutrosTextosBranca'
+      iconColor = 'text-white/80'
+      backgroundMode = 'bg-primaryDark/90'
       break
     case 'dark':
       text = 'text-corTitulosBranca'

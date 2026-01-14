@@ -12,7 +12,8 @@ function SocialMediaTemplate({ colorMode }) {
     cardBg,
     borderCard,
     arrowColor,
-    imageBorder
+    imageBorder,
+    miniTag
 
   switch (colorMode) {
     case 'light':
@@ -23,6 +24,7 @@ function SocialMediaTemplate({ colorMode }) {
       borderCard = 'border-border'
       arrowColor = 'text-mutedForeground group-hover:text-primaryDark'
       imageBorder = 'border-white'
+      miniTag = 'text-primaryDark'
       break
 
     case 'dark':
@@ -33,6 +35,7 @@ function SocialMediaTemplate({ colorMode }) {
       borderCard = 'border-gray-700'
       arrowColor = 'text-mutedForeground group-hover:text-primaryLight'
       imageBorder = 'border-borderImage'
+      miniTag = 'text-primaryLight'
       break
 
     default:
@@ -43,6 +46,7 @@ function SocialMediaTemplate({ colorMode }) {
       borderCard = 'border-border'
       arrowColor = 'text-mutedForeground group-hover:text-primaryDark'
       imageBorder = 'border-white'
+      miniTag = 'text-primaryLight'
   }
 
   return (
@@ -52,7 +56,9 @@ function SocialMediaTemplate({ colorMode }) {
           <div className="container mx-auto">
             {/* Cabeçalho */}
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <span className="text-primaryLight font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block">
+              <span
+                className={`font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block ${miniTag}`}
+              >
                 {content.texts.about.aboutSocial.miniTag}
               </span>
 
