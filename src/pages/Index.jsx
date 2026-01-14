@@ -32,6 +32,8 @@ const WhatsappAnimated = lazy(() =>
 import { useContext } from 'react'
 import { ColorModeProvider } from '../context/UseContextArchive'
 import { useColorMode } from '../context/UseContextArchive'
+import GuidanceSection from '../components/sections/GuidanceSection'
+import DiferenceProducts from '../components/sections/DiferenceProducts'
 
 export default function Index() {
   const { colorMode, setColorMode } = useColorMode()
@@ -48,6 +50,8 @@ export default function Index() {
           {/* Lazy sections */}
           <Suspense fallback={null}>
             <FeaturesNovaTemplate colorMode={colorMode} />
+            <GuidanceSection colorMode={colorMode} />
+            <DiferenceProducts colorMode={colorMode} />
             {/* <FeaturesSemImage colorMode={colorMode} /> */}
             <AboutNovoTemplate colorMode={colorMode} ButtonModal={true} />
             <SocialMediaTemplate colorMode={colorMode} />
