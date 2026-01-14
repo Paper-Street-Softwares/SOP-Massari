@@ -71,8 +71,8 @@ function FeaturesNovaTemplate({ colorMode }) {
       className={`${backgroundMode}`}
     >
       <SectionWrapper>
-        <section className="relative font-mainFont">
-          <div className="container mx-auto">
+        <section className="relative font-mainFont w-full">
+          <div className="mx-auto">
             <div className="flex flex-col-reverse desktop1:flex-row gap-16 items-center">
               {/* Imagem com destaque */}
               <div>
