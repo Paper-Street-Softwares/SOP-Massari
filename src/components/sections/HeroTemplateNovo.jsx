@@ -228,13 +228,11 @@ function HeroTemplateNovo({
                       <div>
                         <p
                           className={`text-[9px] phone2:text-xs font-secondFont font-bold ${textDestaque} tracking-widest uppercase mb-1`}
-                        >
-                          Plantão 24h
-                        </p>
+                        ></p>
                         <p
                           className={`text-paragraph2 phone3:text-lg font-mainFont font-bold leading-none ${text}`}
                         >
-                          Emergência? Ligue agora.
+                          Cuidar hoje. Produzir sempre.
                         </p>
                       </div>
                       <div className="ml-auto">

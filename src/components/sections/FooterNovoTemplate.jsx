@@ -31,10 +31,10 @@ function FooterNovoTemplate({
   let text, textOpacity, iconColor, backgroundMode
   switch (colorMode) {
     case 'light':
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      iconColor = 'text-primaryDark/60'
-      backgroundMode = 'bg-secondary/60'
+      text = 'text-corTitulosBranca'
+      textOpacity = 'text-corOutrosTextosBranca'
+      iconColor = 'text-white/80'
+      backgroundMode = 'bg-primaryDark/90'
       break
     case 'dark':
       text = 'text-corTitulosBranca'
@@ -62,7 +62,7 @@ function FooterNovoTemplate({
                 <img
                   src={content.texts.navbar.logo.img}
                   alt={content.texts.navbar.logo.alt}
-                  className="w-[90%]"
+                  className="w-[40%]"
                   width={187}
                   height={119}
                 />
@@ -228,7 +228,6 @@ function FooterNovoTemplate({
               >
                 Esse site não faz parte do Google LLC nem do Facebook Inc. e não
                 oferecemos nenhum tipo de serviço oficial do governo.
-                Trabalhamos exclusivamente com serviços jurídicos.
               </p>
             </div>
           </div>

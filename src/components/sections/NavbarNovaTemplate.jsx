@@ -35,10 +35,10 @@ function NavbarNovaTemplate({
 
   switch (colorMode) {
     case 'light':
-      backgrondMode = 'bg-white'
-      textOpacity = 'text-corTitulosPreto'
-      hoverLinks = ' bg-gradient-to-r from-primaryDark to-primaryDark '
-      colorMenu = 'text-primaryDark'
+      backgrondMode = 'bg-primaryDark/90'
+      textOpacity = 'text-corOutrosTextosBranca'
+      hoverLinks = ' bg-gradient-to-r from-white to-white '
+      colorMenu = 'text-white'
       bgOpacitySidebar = 'bg-white/70'
 
       break
@@ -64,15 +64,15 @@ function NavbarNovaTemplate({
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent ${
           isScrolled
             ? `${backgrondMode} backdrop-blur-md py-2 shadow-sm border-shadowHero/10 h-auto`
-            : 'bg-transparent border-border/40 py-3 phone2:h-auto'
+            : 'bg-primaryDark border-border/40 py-2 phone2:h-auto'
         }`}
       >
         <div className="container mx-auto flex items-center m-auto max-w-[1215px] h-full w-[90%] justify-between py-2">
           <div
             className={`flex flex-col z-20 relative  ${
               isScrolled
-                ? 'w-[20%] tablet1:w-[20%] tablet2:w-[15%] desktop1:w-[15%] desktop3:w-[10%] transition-all duration-700'
-                : 'w-[40%] phone2:w-[30%] phone3:w-[25%] tablet1:w-[30%] tablet2:w-[20%] desktop1:w-[20%] desktop3:w-[15%] transition-all duration-700'
+                ? 'w-[20%] tablet1:w-[20%] tablet2:w-[15%] desktop1:w-[6%] desktop3:w-[5%] transition-all duration-700'
+                : 'w-[30%] phone2:w-[30%] phone3:w-[25%] tablet1:w-[25%] tablet2:w-[20%] desktop1:w-[9%] desktop3:w-[8%] transition-all duration-700'
             }`}
           >
             {' '}
@@ -118,8 +118,8 @@ function NavbarNovaTemplate({
                   <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.197.297-.768.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.007-.372-.009-.571-.009-.198 0-.52.074-.793.372-.273.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.412.248-.694.248-1.288.173-1.412-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.896a9.825 9.825 0 012.893 6.994c-.002 5.45-4.436 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.158 11.892c0 2.096.547 4.142 1.588 5.94L0 24l6.305-1.654a11.882 11.882 0 005.732 1.463h.005c6.554 0 11.89-5.335 11.892-11.892a11.821 11.821 0 00-3.466-8.413" />
                 </svg>
               }
-              colorMode={colorMode}
-              className="text-sm mb-0"
+              // colorMode={colorMode}
+              className="w-fit bg-white/70 text-primaryDark"
             />
           </div>
 
@@ -131,7 +131,7 @@ function NavbarNovaTemplate({
             {isMobileMenuOpen ? (
               <X
                 aria-label="Botão de fechar a Sidebar"
-                className={`${colorMenu}`}
+                className={`text-primaryDark`}
               />
             ) : (
               <Menu
@@ -152,7 +152,7 @@ function NavbarNovaTemplate({
                 className="fixed inset-0 pt-24 px-6 desktop1:hidden z-40 w-full"
               >
                 <div
-                  className={`flex flex-col gap-6 max-w-[500px] text-center items-center p-4 text-lg mx-auto font-secondFont font-medium border-l border-r border-b border-primary/20 rounded-md ${backgrondMode}`}
+                  className={`flex flex-col gap-6 max-w-[500px] text-center items-center p-4 text-lg mx-auto font-secondFont font-medium border-l border-r border-b border-primary/20 rounded-md bg-primaryDark`}
                 >
                   {labels.map((item, index) => (
                     <Link
@@ -184,8 +184,8 @@ function NavbarNovaTemplate({
                     }
                     link={content.texts.links.ctaWhatsapp}
                     label={content.texts.navbar.ctaButtonText}
-                    colorMode={colorMode}
-                    className="w-fit"
+                    // colorMode={colorMode}
+                    className="w-fit bg-white/80 text-primaryDark"
                   />
                 </div>
               </motion.div>

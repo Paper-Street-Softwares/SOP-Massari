@@ -12,7 +12,8 @@ function SocialMediaTemplate({ colorMode }) {
     cardBg,
     borderCard,
     arrowColor,
-    imageBorder
+    imageBorder,
+    miniTag
 
   switch (colorMode) {
     case 'light':
@@ -23,6 +24,7 @@ function SocialMediaTemplate({ colorMode }) {
       borderCard = 'border-border'
       arrowColor = 'text-mutedForeground group-hover:text-primaryDark'
       imageBorder = 'border-white'
+      miniTag = 'text-primaryDark'
       break
 
     case 'dark':
@@ -33,6 +35,7 @@ function SocialMediaTemplate({ colorMode }) {
       borderCard = 'border-gray-700'
       arrowColor = 'text-mutedForeground group-hover:text-primaryLight'
       imageBorder = 'border-borderImage'
+      miniTag = 'text-primaryLight'
       break
 
     default:
@@ -43,16 +46,19 @@ function SocialMediaTemplate({ colorMode }) {
       borderCard = 'border-border'
       arrowColor = 'text-mutedForeground group-hover:text-primaryDark'
       imageBorder = 'border-white'
+      miniTag = 'text-primaryLight'
   }
 
   return (
-    <SectionArea paddingtop={false} className={backgroundMode}>
+    <SectionArea className={backgroundMode}>
       <SectionWrapper>
         <section>
           <div className="container mx-auto">
             {/* Cabeçalho */}
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <span className="text-primaryLight font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block">
+              <span
+                className={`font-bold font-secondFont tracking-wider uppercase text-xs mb-2 block ${miniTag}`}
+              >
                 {content.texts.about.aboutSocial.miniTag}
               </span>
 
@@ -71,7 +77,7 @@ function SocialMediaTemplate({ colorMode }) {
               {/* Imagem */}
               <div className="flex justify-center overflow-visible">
                 <div
-                  className={`relative max-w-md w-full rounded-[2.5rem] shadow-2xl border-[8px] ${imageBorder}`}
+                  className={`relative max-w-md w-full rounded-[1.5rem] shadow-2xl border-[8px] ${imageBorder}`}
                 >
                   {/* GLOW */}
                   <div
@@ -81,13 +87,15 @@ function SocialMediaTemplate({ colorMode }) {
                   />
 
                   {/* CLIP DA IMAGEM */}
-                  <div className="relative rounded-[2rem] overflow-hidden">
+                  <div
+                    className={`relative rounded-[1rem] overflow-hidden ${imageBorder}`}
+                  >
                     <img
                       src={content.texts.about.aboutSocial.img.img}
                       alt={content.texts.about.aboutSocial.img.alt}
-                      className="w-full scale-105 hover:scale-100 transition-transform duration-700 rounded-[1.5rem]"
-                      width={448}
-                      height={618}
+                      className="w-full scale-105 hover:scale-100 transition-transform duration-700"
+                      width={726}
+                      height={726}
                     />
                   </div>
                 </div>

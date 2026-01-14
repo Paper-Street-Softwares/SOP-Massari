@@ -15,10 +15,10 @@ function CtaNovoTemplate({ colorMode }) {
 
   switch (colorMode) {
     case 'light':
-      text = 'text-corTitulosPreto'
+      text = 'text-corTitulosBranca'
       textOpacity = 'text-corOutrosTextosPreto'
-      backgroundMode = 'bg-white'
-      miniTagCtaDark = 'text-primaryDark'
+      backgroundMode = 'bg-primaryDark'
+      miniTagCtaDark = 'text-white'
       break
     case 'dark':
       text = 'text-corTitulosBranca'
@@ -77,7 +77,8 @@ function CtaNovoTemplate({ colorMode }) {
                 }
                 link={content.texts.links.ctaWhatsapp}
                 label={content.texts.ctaSecondary.ctaButtonText}
-                colorMode={colorMode}
+                // colorMode={colorMode}
+                className="w-fit bg-white/70 text-primaryDark"
               />
               <ButtonReflexo
                 id="ligar"
