@@ -16,7 +16,10 @@ import {
   Home,
   Key,
   LucideIdCard,
+  Milk,
   Scale,
+  Shield,
+  Weight,
 } from 'lucide-react'
 import { Users } from 'lucide-react'
 import { FileText } from 'lucide-react'
@@ -153,22 +156,25 @@ const content = {
       },
     },
     features: {
-      miniTag: 'A_Definir',
+      miniTag: 'Nossas soluções',
       title: (
         <h1>
-          A_Definir
-          <span className="destaque italic font-light"> A_Definir</span>
+          Soluções completas para o
+          <span className="destaque italic font-light"> desempenho</span> do
+          rebanho
         </h1>
       ),
-      subtitle: 'A_Definir',
+      subtitle:
+        'Nutrição, proteção e equilíbrio animal para resultados mais consistentes e sustentáveis no campo.',
       imgFeatures: imgFeatures,
       alt: 'imagem representativa da Seção Serviços',
-      titleMessageFeature: 'A_Definir',
-      subtitleMessageFeature: 'A_Definir',
+      titleMessageFeature: '100%',
+      subtitleMessageFeature: 'resultado no rebanho',
       cards: {
         card1: {
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Mais leite, mais desempenho',
+          subtitle:
+            'Nutrição que fortalece a imunidade, melhora a fertilidade e aumenta a longevidade do rebanho.',
           description: (
             <div>
               A_Definir
@@ -177,13 +183,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <Baby />,
+          icon: <Milk />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card2: {
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Ganho de peso com eficiência',
+          subtitle:
+            'Soluções nutricionais que aceleram a engorda e melhoram o aproveitamento alimentar.',
           description: (
             <div>
               A_Definir
@@ -192,13 +199,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <BriefcaseMedical />,
+          icon: <Weight />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card3: {
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Proteção que preserva o rebanho',
+          subtitle:
+            'Controle eficaz de carrapatos, mosca-do-chifre e, em alguns casos, berne.',
           description: (
             <div>
               A_Definir <br />
@@ -206,13 +214,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <FileText />,
+          icon: <Shield />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
         card4: {
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          title: 'Saúde intestinal em equilíbrio',
+          subtitle:
+            'Probióticos e prebióticos que favorecem as bactérias benéficas e melhoram o desempenho animal.',
           description: (
             <div>
               A_Definir
@@ -221,57 +230,57 @@ const content = {
               <br />
             </div>
           ),
-          icon: <Gavel />,
+          icon: <BriefcaseMedical />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
-        card5: {
-          title: <p>A_Definir</p>,
-          subtitle: 'A_Definir',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: (
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
-            >
-              <circle cx="12" cy="12" r="10" />
-              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-              <path d="M12 18V6" />
-            </svg>
-          ),
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card6: {
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <Scale />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
+        // card5: {
+        //   title: <p>A_Definir</p>,
+        //   subtitle: 'A_Definir',
+        //   description: (
+        //     <div>
+        //       A_Definir
+        //       <br />
+        //       <br />
+        //       A_Definir
+        //     </div>
+        //   ),
+        //   icon: (
+        //     <svg
+        //       xmlns="http://www.w3.org/2000/svg"
+        //       width="24"
+        //       height="24"
+        //       viewBox="0 0 24 24"
+        //       fill="none"
+        //       stroke="currentColor"
+        //       stroke-width="2"
+        //       stroke-linecap="round"
+        //       stroke-linejoin="round"
+        //       class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+        //     >
+        //       <circle cx="12" cy="12" r="10" />
+        //       <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+        //       <path d="M12 18V6" />
+        //     </svg>
+        //   ),
+        //   buttonLabelModal: 'Fale Conosco',
+        //   buttonLabel: 'Saiba Mais',
+        // },
+        // card6: {
+        //   title: 'A_Definir',
+        //   subtitle: 'A_Definir',
+        //   description: (
+        //     <div>
+        //       A_Definir
+        //       <br />
+        //       <br />
+        //       A_Definir
+        //     </div>
+        //   ),
+        //   icon: <Scale />,
+        //   buttonLabelModal: 'Fale Conosco',
+        //   buttonLabel: 'Saiba Mais',
+        // },
       },
       moreFeatures: {
         card1: {
