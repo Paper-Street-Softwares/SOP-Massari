@@ -437,23 +437,27 @@ const content = {
     faq: {
       miniTag: 'TIRE SUAS DÚVIDAS',
       title: 'Perguntas Frequentes',
-      subtitle: 'A_Definir',
+      subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas.',
       questions: {
         question1: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'A Massari atende qualquer tipo de rebanho?',
+          answer:
+            'Sim. Trabalhamos com soluções nutricionais desenvolvidas para diferentes sistemas produtivos, atendendo tanto bovinos de corte quanto vacas leiteiras, em diversas fases da produção.',
         },
         question2: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'As soluções são padronizadas ou personalizadas?',
+          answer:
+            'Nossas soluções são definidas a partir da realidade de cada propriedade. Avaliamos o manejo, os objetivos produtivos e as necessidades do rebanho para indicar a suplementação mais adequada.',
         },
         question3: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'Em quanto tempo é possível perceber resultados?',
+          answer:
+            'Os resultados variam conforme o manejo e o sistema produtivo, mas melhorias no desempenho, saúde e aproveitamento nutricional podem ser observadas progressivamente com o uso correto das soluções.',
         },
         question4: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'A Massari oferece acompanhamento técnico?',
+          answer:
+            'Sim. Nosso atendimento inclui orientação técnica e acompanhamento para garantir que as soluções aplicadas gerem resultados consistentes no campo.',
         },
       },
       paragraph: 'Clique aqui caso tenha mais dúvidas',
