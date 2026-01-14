@@ -9,12 +9,14 @@ import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
 import imgSteps from '../assets/imgs/steps/imgSteps.webp'
 
 import {
+  ArrowRight,
   Baby,
   Briefcase,
   BriefcaseMedical,
   Gavel,
   Home,
   Key,
+  Leaf,
   LucideIdCard,
   Milk,
   Scale,
@@ -297,6 +299,48 @@ const content = {
           ico: 'A_Definir',
           title: 'A_Definir',
           subtitle: 'A_Definir',
+        },
+      },
+    },
+    guidance: {
+      cards: {
+        card1: {
+          badge: {
+            text: 'Vaca com leiteiras - Em todas as fases da vida',
+          },
+          title: 'Pró Leite',
+          highlight: 'Mais produção de leite, Melhor saúde e imunidade',
+          description:
+            'Um núcleo mineral, vitamínico, aminoácido, destinado aos bovinos de leite, de todas as idades. É um produto com formulação exclusiva, contendo probiótico e prebiótico.',
+          usage: {
+            text: '1 kg para cada 30kg sal ou 10g por animal/dia',
+          },
+        },
+        card2: {
+          badge: {
+            text: 'Bovinos de corte e leite - Em todas as fases',
+          },
+          title: 'Pró Engorda',
+          highlight: 'Engorda rápida, ganho garantido!',
+          description:
+            'Premix para bovinos de corte e leite. Um produto vitamínico, para mistura, destinado aos bovinos de corte e leite, em todas as fases.',
+          usage: {
+            title: 'Modo de Usar',
+            text: '1 kg para cada 30 kg de sal ou 10 g por animal/dia',
+          },
+        },
+        card3: {
+          badge: {
+            text: 'Bovinos de corte e leite - Em todas as fases',
+          },
+          title: 'Protege',
+          highlight: 'Combate carrapato e mosca de chifre',
+          description:
+            'Um núcleo mineral, vitamínico, aminoácido, destinado aos bovinos de leite, de todas as idades.',
+          usage: {
+            title: 'Modo de Usar',
+            text: '1 kg para cada 30 kg de ração, ou 10 g por animal/dia',
+          },
         },
       },
     },
