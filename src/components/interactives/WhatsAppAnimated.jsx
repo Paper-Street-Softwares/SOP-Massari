@@ -90,10 +90,10 @@ export default function WhatsappAnimated() {
   const colorButton = themes[colorMode] || themes.default
   const iconColor = colorMode === 'light' ? '#fff' : '#000'
 
-  console.log({
-    whatsAppColor,
-    colorMode,
-  })
+  // console.log({
+  //   whatsAppColor,
+  //   colorMode,
+  // })
 
   return (
     <>

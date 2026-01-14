@@ -4,19 +4,19 @@ import imgFeatures from '../assets/imgs/features/imgServices.webp'
 
 import aboutImg from '../assets/imgs/about/aboutImg.webp'
 
+import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
+
 import imgSteps from '../assets/imgs/steps/imgSteps.webp'
 
 import {
   Baby,
   Briefcase,
-  BriefcaseBusiness,
   BriefcaseMedical,
   Gavel,
   Home,
   Key,
   LucideIdCard,
   Scale,
-  Shield,
 } from 'lucide-react'
 import { Users } from 'lucide-react'
 import { FileText } from 'lucide-react'
@@ -24,14 +24,14 @@ import { FileText } from 'lucide-react'
 const currentYear = new Date().getFullYear()
 
 export const infos = {
-  name: 'Dr. José Negreiros',
+  name: 'A_Definir',
   email: 'contato', // Email desejado pelo cliente
   emailSecundario: 'A_Definir', // Email desejado pelo cliente
-  domain: 'negreirosadvocaciajuridica.com.br', // Sem "www"
+  domain: 'A_Definir', // Sem "www"
   phone: {
-    ddd: '69',
-    firstPart: '98100', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '0109', // Apenas os 4 últimos números
+    ddd: '00',
+    firstPart: '00000', // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: '0000', // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: 'A_Definir',
@@ -46,10 +46,10 @@ export const infos = {
   endereco: (
     <div>
       {/* <p>Endereço:</p> */}
-      <p>Rua Geraldo Siqueira,</p>
-      <p>nº 2690, Caladinho ,</p>
-      <p>Porto Velho - RO,</p>
-      <p>CEP 76808-270</p>
+      <p>A_Definir</p>
+      <p>A_Definir,</p>
+      <p>A_Definir,</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -106,25 +106,25 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'ESCRITÓRIO DE ADVOCACIA EM PORTO VELHO - RO',
-      FirstPartTitle: 'Quando o problema é sério, você',
+      miniTag: 'A_Definir',
+      FirstPartTitle: 'A_Definir',
       DestaquePartTitle: (
         <p>
-          <span className="italic relative inline-block">precisa</span>
+          <span className="italic relative inline-block">A_Definir</span>
         </p>
       ),
-      SecondPartTitle: 'de apoio',
+      SecondPartTitle: 'A_Definir',
       subtitle: <p>A_Definir</p>,
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'Falar com um advogado',
+      ctaButtonText: 'A_Definir',
       ctaButtonTextSecondary: 'A_Definir',
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: 'Atendimento confidencial e personalizado.',
+        text: 'A_Definir',
         textTwo: '',
       },
       secondaryCta: 'Contato',
@@ -148,28 +148,113 @@ const content = {
       },
     },
     features: {
-      miniTag: 'ÁREAS DE ATUAÇÃO',
+      miniTag: 'A_Definir',
       title: (
         <h1>
-          Atuação jurídica com
-          <span className="destaque italic font-light">
-            {' '}
-            responsabilidade
-          </span>{' '}
-          e<span className="destaque italic font-light"> proximidade</span>
+          A_Definir
+          <span className="destaque italic font-light"> A_Definir</span>
         </h1>
       ),
-      subtitle:
-        'Unimos conhecimento técnico e atendimento humano para orientar você com clareza em cada etapa.',
+      subtitle: 'A_Definir',
       imgFeatures: imgFeatures,
       alt: 'imagem representativa da Seção Serviços',
-      titleMessageFeature: '100%',
-      subtitleMessageFeature: 'ética e responsabilidade',
+      titleMessageFeature: 'A_Definir',
+      subtitleMessageFeature: 'A_Definir',
       cards: {
         card1: {
-          title: 'Direito Penal',
-          subtitle:
-            'Atuação firme e responsável para quem enfrenta acusações ou investigações criminais.',
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <Baby />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card2: {
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <BriefcaseMedical />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card3: {
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
+          description: (
+            <div>
+              A_Definir <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <FileText />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card4: {
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              A_Definir
+              <br />
+            </div>
+          ),
+          icon: <Gavel />,
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card5: {
+          title: <p>A_Definir</p>,
+          subtitle: 'A_Definir',
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+              <path d="M12 18V6" />
+            </svg>
+          ),
+          buttonLabelModal: 'Fale Conosco',
+          buttonLabel: 'Saiba Mais',
+        },
+        card6: {
+          title: 'A_Definir',
+          subtitle: 'A_Definir',
           description: (
             <div>
               A_Definir
@@ -179,85 +264,6 @@ const content = {
             </div>
           ),
           icon: <Scale />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card2: {
-          title: 'Processo Penal',
-          subtitle:
-            'Acompanhamento cuidadoso em todas as etapas do processo, garantindo seus direitos.',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <Gavel />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card3: {
-          title: 'Direito de Família',
-          subtitle:
-            'Apoio jurídico em momentos delicados como divórcio, pensão, guarda e conflitos familiares.',
-          description: (
-            <div>
-              A_Definir <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <Users />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card4: {
-          title: 'Direito Cível',
-          subtitle:
-            'Soluções jurídicas para conflitos do dia a dia, contratos, cobranças e indenizações.',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              A_Definir
-              <br />
-            </div>
-          ),
-          icon: <Shield />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card5: {
-          title: <p>Direito do Trabalho</p>,
-          subtitle:
-            'Orientação e defesa em casos de demissão, verbas trabalhistas e direitos do trabalhador.',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <BriefcaseBusiness />,
-          buttonLabelModal: 'Fale Conosco',
-          buttonLabel: 'Saiba Mais',
-        },
-        card6: {
-          title: 'Orientação Jurídica Preventiva',
-          subtitle:
-            'Análise e orientação para evitar problemas jurídicos antes que eles aconteçam.',
-          description: (
-            <div>
-              A_Definir
-              <br />
-              <br />
-              A_Definir
-            </div>
-          ),
-          icon: <FileText />,
           buttonLabelModal: 'Fale Conosco',
           buttonLabel: 'Saiba Mais',
         },
@@ -291,29 +297,25 @@ const content = {
         img: aboutImg,
         alt: 'Imagem ilustrativa da Seção Sobre',
       },
-      miniTag: 'QUEM É O DR. JOSÉ NEGREIROS',
-      FirstPartTitle: 'Nossa',
+      miniTag: 'A_Definir',
+      FirstPartTitle: 'A_Definir',
       DestaquePartTitle: (
         <p>
-          <span className="italic"> trajetória</span>{' '}
+          <span className="italic"> A_Definir</span>{' '}
         </p>
       ),
       SecondPartTitle: '',
       subtitle: 'A_Definir',
       paragraph: (
         <div>
-          Atuo na advocacia com foco em oferecer soluções jurídicas claras,
-          estratégicas e personalizadas. Acredito que cada cliente vive uma
-          situação única e, por isso, faço questão de ouvir com atenção,
-          compreender o problema e orientar com transparência e responsabilidade
-          desde o primeiro contato.
+          A_Definir
           <br />
-          Minha atuação vai além da representação legal. Trabalho com uma equipe
-          qualificada e comprometida em transformar desafios jurídicos em
-          soluções seguras, sempre priorizando ética, agilidade e resultados.
-          Aqui, o cliente encontra confiança, proximidade e um atendimento
-          realmente dedicado.
+          A_Definir
           <br />
+          A_Definir
+          <br />
+          <br />
+          A_Definir
         </div>
       ),
       buttonModalLabelAbout: 'Continuar lendo',
@@ -332,32 +334,31 @@ const content = {
       titleModal: 'A_Definir',
       ctaButtonAriaLabel: 'Botão para entrar em contato',
       ctaButtonText: 'Entre em contato',
-      // aboutSocial: {
-      //   img: {
-      //     img: aboutSocialImg,
-      //     alt: `Foto do Instagram do ${infos.name}`,
-      //     altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
-      //   },
-      //   miniTag: 'REDES SOCIAIS',
-      //   title: 'Conecte-se conosco',
-      //   subtitle:
-      //     'Aproveite nossas redes sociais para mantermos contato e ficar por dentro dos lançamentos, novidades e atualizações do mercado imobiliário.',
-      //   paragraph: <p></p>,
-      //   labelInstagram: 'Siga-nos no Instagram',
-      //   labelFacebook: 'Siga-nos no Facebook',
-      //   labelLinkedin: 'Siga-nos no LinkedIn',
-      //   labelX: 'Siga-nos no X',
-      //   labelTiktok: 'Siga-nos no Tik Tok',
-      //   labelYoutube: 'Siga-nos no Youtube',
-      // },
+      aboutSocial: {
+        img: {
+          img: aboutSocialImg,
+          alt: `Foto do Instagram do ${infos.name}`,
+          altDefault: 'Imagem ilustrativa da Seção de Redes Sociais',
+        },
+        miniTag: 'REDES SOCIAIS',
+        title: 'Conecte-se conosco',
+        subtitle:
+          'Aproveite nossas redes sociais para mantermos contato e ficar por dentro dos lançamentos, novidades e atualizações do mercado imobiliário.',
+        paragraph: <p></p>,
+        labelInstagram: 'Siga-nos no Instagram',
+        labelFacebook: 'Siga-nos no Facebook',
+        labelLinkedin: 'Siga-nos no LinkedIn',
+        labelX: 'Siga-nos no X',
+        labelTiktok: 'Siga-nos no Tik Tok',
+        labelYoutube: 'Siga-nos no Youtube',
+      },
     },
     steps: {
       miniTag: 'PASSO A PASSO',
       title: (
         <h1>
-          Como
-          <span className="destaque italic font-light"> protegemos</span> seus
-          direitos
+          A_Definir
+          <span className="destaque italic font-light"> A_Definir</span>
         </h1>
       ),
       subtitle: '',
@@ -366,35 +367,30 @@ const content = {
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: 'Análise Pessoal e Detalhada',
-          cardDescription:
-            'Estudo individual do seu caso para definir o caminho mais seguro e eficaz',
+          cardTitle: 'A_Definir',
+          cardDescription: 'A_Definir',
         },
         card2: {
           stepNumber: 2,
-          cardTitle: 'Atuação com Rigor Técnico',
-          cardDescription:
-            'Revisão de documentos, cálculos e provas para garantir a melhor solução legal.',
+          cardTitle: 'A_Definir',
+          cardDescription: 'A_Definir',
         },
         card3: {
           stepNumber: 3,
-          cardTitle: 'Atendimento Transparente e Ágil',
-          cardDescription:
-            'Informações claras e em tempo real, com toda a parte processual cuidada pelo escritório.',
+          cardTitle: 'A_Definir',
+          cardDescription: 'A_Definir',
         },
         card4: {
           stepNumber: 4,
-          cardTitle: 'Defesa Concreta e Eficiente',
-          cardDescription:
-            'Acompanhamento completo em todas as etapas, buscando resultados sólidos e seguros.',
+          cardTitle: 'A_Definir',
+          cardDescription: 'A_Definir',
         },
       },
     },
     ctaSecondary: {
       miniTag: 'FALE CONOSCO',
-      title: <h1>Proteja seus direitos agora</h1>,
-      subtitle:
-        'Fale com um especialista e receba orientação estratégica imediata para o seu caso.',
+      title: <h1>A_Definir</h1>,
+      subtitle: 'A_Definir',
       subtitleDireita: (
         <p className="gap-3 flex font-mainFont opacity-60 mt-1">
           <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
@@ -419,27 +415,23 @@ const content = {
     faq: {
       miniTag: 'TIRE SUAS DÚVIDAS',
       title: 'Perguntas Frequentes',
-      subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas. ',
+      subtitle: 'A_Definir',
       questions: {
         question1: {
-          question: 'Como posso contratar seus serviços?',
-          answer:
-            'A_DefAgende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.inir',
+          question: 'A_Definir',
+          answer: 'A_Definir',
         },
         question2: {
-          question: 'Qual é o prazo médio para resolução de um caso?',
-          answer:
-            'O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.',
+          question: 'A_Definir',
+          answer: 'A_Definir',
         },
         question3: {
-          question: 'Quais documentos devo levar para a consulta?',
-          answer:
-            'Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.',
+          question: 'A_Definir',
+          answer: 'A_Definir',
         },
         question4: {
-          question: 'Vocês oferecem serviços de consultoria preventiva?',
-          answer:
-            'Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.',
+          question: 'A_Definir',
+          answer: 'A_Definir',
         },
       },
       paragraph: 'Clique aqui caso tenha mais dúvidas',
