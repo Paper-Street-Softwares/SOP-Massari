@@ -102,8 +102,8 @@ function HeroTemplateNovo({
                 {content.texts.hero.miniTag}
               </div>
 
-              <h2
-                className={`text-start desktop1:text-start text-4xl md:text-5xl lg:text-7xl font-mainFont font-medium leading-[1.1] tracking-tight ${text}`}
+              <h1
+                className={`text-start desktop1:text-start text-3xl sm:text-title4 md:text-title5 lg:text-5xl desktop3:text-6xl font-mainFont font-medium leading-[1.1] tracking-tight ${text}`}
               >
                 {content.texts.hero.FirstPartTitle}{' '}
                 <span
@@ -142,7 +142,7 @@ function HeroTemplateNovo({
                 <span className="phone2:ml-2">
                   {content.texts.hero.SecondPartTitle}
                 </span>
-              </h2>
+              </h1>
 
               <p
                 className={`text-start desktop1:text-start text-lg md:text-xl leading-relaxed max-w-lg font-secondFont font-extralight ${textOpacity}`}
