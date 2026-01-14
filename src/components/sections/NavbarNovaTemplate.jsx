@@ -152,7 +152,7 @@ function NavbarNovaTemplate({
                 className="fixed inset-0 pt-24 px-6 desktop1:hidden z-40 w-full"
               >
                 <div
-                  className={`flex flex-col gap-6 max-w-[500px] text-center items-center p-4 text-lg mx-auto font-secondFont font-medium border-l border-r border-b border-primary/20 rounded-md ${backgrondMode}`}
+                  className={`flex flex-col gap-6 max-w-[500px] text-center items-center p-4 text-lg mx-auto font-secondFont font-medium border-l border-r border-b border-primary/20 rounded-md bg-primaryDark`}
                 >
                   {labels.map((item, index) => (
                     <Link
@@ -184,8 +184,8 @@ function NavbarNovaTemplate({
                     }
                     link={content.texts.links.ctaWhatsapp}
                     label={content.texts.navbar.ctaButtonText}
-                    colorMode={colorMode}
-                    className="w-fit"
+                    // colorMode={colorMode}
+                    className="w-fit bg-white/80 text-primaryDark"
                   />
                 </div>
               </motion.div>

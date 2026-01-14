@@ -77,7 +77,7 @@ function SocialMediaTemplate({ colorMode }) {
               {/* Imagem */}
               <div className="flex justify-center overflow-visible">
                 <div
-                  className={`relative max-w-md w-full rounded-[2.5rem] shadow-2xl border-[8px] ${imageBorder}`}
+                  className={`relative max-w-md w-full rounded-[1.5rem] shadow-2xl border-[8px] ${imageBorder}`}
                 >
                   {/* GLOW */}
                   <div
@@ -87,13 +87,15 @@ function SocialMediaTemplate({ colorMode }) {
                   />
 
                   {/* CLIP DA IMAGEM */}
-                  <div className="relative rounded-[2rem] overflow-hidden">
+                  <div
+                    className={`relative rounded-[1rem] overflow-hidden ${imageBorder}`}
+                  >
                     <img
                       src={content.texts.about.aboutSocial.img.img}
                       alt={content.texts.about.aboutSocial.img.alt}
-                      className="w-full scale-105 hover:scale-100 transition-transform duration-700 rounded-[1.5rem]"
-                      width={448}
-                      height={618}
+                      className="w-full scale-105 hover:scale-100 transition-transform duration-700"
+                      width={726}
+                      height={726}
                     />
                   </div>
                 </div>
