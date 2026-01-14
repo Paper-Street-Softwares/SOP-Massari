@@ -404,13 +404,15 @@ const content = {
     },
     ctaSecondary: {
       miniTag: 'FALE CONOSCO',
-      title: <h1>A_Definir</h1>,
-      subtitle: 'A_Definir',
-      subtitleDireita: (
-        <p className="gap-3 flex font-mainFont opacity-60 mt-1">
-          <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
-        </p>
+      title: (
+        <h1>Precisa melhorar o desempenho do seu rebanho? Fale conosco!</h1>
       ),
+      subtitle: '',
+      // subtitleDireita: (
+      //   <p className="gap-3 flex font-mainFont opacity-60 mt-1">
+      //     <span>E N T R E </span> E M <span>C O N T A T O</span> V I A
+      //   </p>
+      // ),
       titleDireita: (
         <h1 className="text-title5 my-3 font-mainFont">WhatsApp</h1>
       ),
