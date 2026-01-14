@@ -106,25 +106,30 @@ const content = {
       ctaButtonTextResponsive: 'Contato',
     },
     hero: {
-      miniTag: 'A_Definir',
-      FirstPartTitle: 'A_Definir',
+      miniTag: 'NUTRIÇÃO ANIMAL DE ALTA PERFORMANCE',
+      FirstPartTitle: 'Pecuária que produz com',
       DestaquePartTitle: (
         <p>
-          <span className="italic relative inline-block">A_Definir</span>
+          <span className="italic relative inline-block">responsabilidade</span>
         </p>
       ),
-      SecondPartTitle: 'A_Definir',
-      subtitle: <p>A_Definir</p>,
+      SecondPartTitle: '',
+      subtitle: (
+        <p>
+          Tradição, tecnologia e compromisso com a qualidade em cada etapa da
+          produção pecuária.
+        </p>
+      ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'A_Definir',
+      ctaButtonText: 'Conheça nossa história',
       ctaButtonTextSecondary: 'A_Definir',
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: 'A_Definir',
+        text: 'Atuação sólida no campo, construída com ética, eficiência e respeito ao agro brasileiro.',
         textTwo: '',
       },
       secondaryCta: 'Contato',
