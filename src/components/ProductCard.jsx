@@ -22,30 +22,30 @@ function ProductCard({ target, tagline, name, description, usage }) {
             <div className="bg-secondary/50 p-2 rounded-xl text-primaryDark group-hover:bg-primaryDark group-hover:text-white transition-colors duration-700">
               <Sprout className="w-6 h-6" />
             </div>
-            <span className="text-paragraph1 font-bold uppercase tracking-wider text-muted-corOutrosTextosPreto border border-border px-3 py-1 rounded-lg max-w-[200px]">
+            <span className="text-paragraph1 font-bold uppercase tracking-wider text-corOutrosTextosPreto border border-border px-3 py-1 rounded-lg max-w-[200px]">
               {target}
             </span>
           </div>
 
-          <h3 className="text-2xl font-bold text-corTitulosPreto mb-2 group-hover:text-primaryDark transition-colors duration-700">
+          <h1 className="text-2xl font-bold text-corTitulosPreto mb-2 group-hover:text-primaryDark transition-colors duration-700">
             {name}
-          </h3>
+          </h1>
 
           <p className="text-accent font-medium italic mb-4 font-display text-lg">
             "{tagline}"
           </p>
 
-          <p className="text-muted-corOutrosTextosPreto mb-6 line-clamp-3">
+          <p className="text-corOutrosTextosPreto mb-6 line-clamp-3">
             {description}
           </p>
 
           <div className="mt-auto space-y-4 pt-6 border-t border-border/50">
             <div>
-              <h4 className="text-sm font-semibold text-corOutrosTextosPreto flex items-center gap-2 mb-2">
+              <h1 className="text-sm font-semibold text-corOutrosTextosPreto flex items-center gap-2 mb-2">
                 <CheckCircle2 className="w-4 h-4 text-primaryDark" />
                 Modo de Usar
-              </h4>
-              <p className="text-sm text-muted-corOutrosTextosPreto">{usage}</p>
+              </h1>
+              <p className="text-sm text-corOutrosTextosPreto">{usage}</p>
             </div>
           </div>
         </div>
