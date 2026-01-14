@@ -90,7 +90,7 @@ function DiferenceProducts({ colorMode }) {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-16">
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-16 font-secondFont">
             {/* Probióticos */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
