@@ -25,14 +25,14 @@ function DiferenceProducts({ colorMode }) {
       text = 'text-corTitulosPreto'
       textOpacity = 'text-corOutrosTextosPreto'
       textDestaque = 'text-primaryDark'
-      textDestaqueNegative = 'text-red-500'
+      textDestaqueNegative = 'text-green-600'
       cardBgLeft = 'bg-secondary/20'
-      cardBgRight = 'bg-accent/5'
+      cardBgRight = 'bg-green-600/5'
       borderLeft = 'border-secondary'
-      borderRight = 'border-accent/20'
-      iconLeft = 'bg-primary/10 text-primaryDark'
-      iconRight = 'bg-accent/10 text-accent'
-      bulletLeft = 'text-accent'
+      borderRight = 'border-green-600/20'
+      iconLeft = 'bg-primaryDark/10 text-primaryDark'
+      iconRight = 'bg-green-600/10 text-green-600'
+      bulletLeft = 'text-green-600'
       bulletRight = 'text-primaryDark'
       break
 
@@ -41,7 +41,7 @@ function DiferenceProducts({ colorMode }) {
       text = 'text-corTitulosBranca'
       textOpacity = 'text-corOutrosTextosBranca'
       textDestaque = 'text-primaryLight'
-      textDestaqueNegative = 'text-red-500'
+      textDestaqueNegative = 'text-green-500'
       cardBgLeft = 'bg-dark'
       cardBgRight = 'bg-dark'
       borderLeft = 'border-primaryLight/20'
@@ -57,14 +57,14 @@ function DiferenceProducts({ colorMode }) {
       text = 'text-corTitulosBranca'
       textOpacity = 'text-corOutrosTextosBranca'
       textDestaque = 'text-primaryDark'
-      textDestaqueNegative = 'text-red-500'
+      textDestaqueNegative = 'text-green-500'
       cardBgLeft = 'bg-secondary/20'
-      cardBgRight = 'bg-accent/5'
+      cardBgRight = 'bg-green-600/5'
       borderLeft = 'border-secondary'
-      borderRight = 'border-accent/20'
+      borderRight = 'border-green-600/20'
       iconLeft = 'bg-primary/10 text-primaryDark'
-      iconRight = 'bg-accent/10 text-accent'
-      bulletLeft = 'text-accent'
+      iconRight = 'bg-green-600/10 text-green-600'
+      bulletLeft = 'text-green-600'
       bulletRight = 'text-primaryDark'
   }
 
@@ -197,8 +197,8 @@ function DiferenceProducts({ colorMode }) {
                   <h4 className={`font-bold mb-2 ${text}`}>Benefícios</h4>
                   <ul className={`space-y-2 ${textOpacity}`}>
                     <li className="flex items-start gap-2">
-                      <span className={`${bulletRight} mt-1`}>•</span> Reduzem a
-                      presença de bactérias patogênicas
+                      <span className={`${bulletRight} mt-1`}>•</span> greenuzem
+                      a presença de bactérias patogênicas
                     </li>
                     <li className="flex items-start gap-2">
                       <span className={`${bulletRight} mt-1`}>•</span> Melhoram
