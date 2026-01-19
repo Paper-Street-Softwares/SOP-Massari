@@ -119,7 +119,7 @@ function NavbarNovaTemplate({
                 </svg>
               }
               // colorMode={colorMode}
-              className="w-fit bg-white/70 text-primaryDark"
+              className="w-fit "
             />
           </div>
 

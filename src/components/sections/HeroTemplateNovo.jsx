@@ -31,6 +31,7 @@ function HeroTemplateNovo({
   switch (colorMode) {
     case 'light':
       backgroundMode = 'bg-white'
+      // backgroundMode = 'bg-[#D9EEDA]'
       bgFaixaHero = 'bg-terciary'
       text = 'text-corTitulosPreto'
       textOpacity = 'text-corOutrosTextosPreto'

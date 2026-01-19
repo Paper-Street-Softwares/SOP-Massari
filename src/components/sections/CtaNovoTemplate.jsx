@@ -78,7 +78,7 @@ function CtaNovoTemplate({ colorMode }) {
                 link={content.texts.links.ctaWhatsapp}
                 label={content.texts.ctaSecondary.ctaButtonText}
                 // colorMode={colorMode}
-                className="w-fit bg-white/70 text-primaryDark"
+                className="w-fit "
               />
               <ButtonReflexo
                 id="ligar"
