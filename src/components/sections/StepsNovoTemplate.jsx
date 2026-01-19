@@ -19,9 +19,9 @@ function StepsNovoTemplate({ colorMode }) {
 
   switch (colorMode) {
     case 'light':
-      backgroundMode = 'bg-secondary/60'
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
+      backgroundMode = 'bg-secondary'
+      text = 'text-corTitulosBranca'
+      textOpacity = 'text-corOutrosTextosBranca'
       stepNumberBg = 'bg-white'
       stepNumberText = 'text-primaryDark'
       lineColor = 'bg-primaryDark/20'
@@ -125,7 +125,7 @@ function StepsNovoTemplate({ colorMode }) {
                       </div>
                       <div className="pt-2">
                         <h1
-                          className={`text-xl font-bold font-mainFont mb-2 ${text}`}
+                          className={`text-xl font-bold font-secondFont mb-2 ${text}`}
                         >
                           {item.cardTitle}
                         </h1>

@@ -4,7 +4,7 @@ import { Sprout, CheckCircle2, ArrowRight } from 'lucide-react'
 import ButtonReflexo from './interactives/ButtonReflexo'
 import content from '../content/content'
 
-function ProductCard({ target, tagline, name, description, usage }) {
+function ProductCard({ target, tagline, name, description, usage, img }) {
   return (
     <div>
       <motion.div
@@ -12,7 +12,7 @@ function ProductCard({ target, tagline, name, description, usage }) {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="group relative bg-white rounded-2xl shadow-sm border border-border/50 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-700 flex flex-col h-full"
+        className="group relative bg-white rounded-2xl shadow-sm border border-border/50 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-700 flex flex-col h-full max-w-[380px] mx-auto"
       >
         {/* Decorative top strip */}
         <div className="h-2 w-full bg-gradient-to-r from-primaryDark to-primaryDark/80" />
@@ -48,6 +48,14 @@ function ProductCard({ target, tagline, name, description, usage }) {
               <p className="text-sm text-corOutrosTextosPreto">{usage}</p>
             </div>
           </div>
+        </div>
+
+        <div>
+          <img
+            src={img}
+            alt="imagem de Produtos"
+            className="w-[300px] px-6 pb-6 desktop1:px-12 desktop1:pb-8 mx-auto"
+          />
         </div>
 
         <div className="bg-secondary/30 px-8 py-4 border-t border-border/50 flex justify-between items-center">

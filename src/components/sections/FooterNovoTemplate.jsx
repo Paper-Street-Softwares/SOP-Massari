@@ -34,7 +34,7 @@ function FooterNovoTemplate({
       text = 'text-corTitulosBranca'
       textOpacity = 'text-corOutrosTextosBranca'
       iconColor = 'text-white/80'
-      backgroundMode = 'bg-primaryDark/90'
+      backgroundMode = 'bg-primaryDark'
       break
     case 'dark':
       text = 'text-corTitulosBranca'
@@ -99,7 +99,7 @@ function FooterNovoTemplate({
               <div className="flex flex-col justify-center sm:items-center gap-8 tablet2:justify-center ">
                 <div className="w-fit ">
                   <h1
-                    className={`font-bold font-mainFont text-lg mb-6 ${text}`}
+                    className={`font-bold font-secondFont text-lg mb-6 ${text}`}
                   >
                     Links Rápidos
                   </h1>
@@ -130,7 +130,7 @@ function FooterNovoTemplate({
               <div className="justify-start tablet2:justify-start flex flex-col gap-6">
                 <div className="w-fit">
                   <h1
-                    className={`font-bold font-mainFont text-lg mb-6 ${text}`}
+                    className={`font-bold font-secondFont text-lg mb-6 ${text}`}
                   >
                     Contato
                   </h1>
