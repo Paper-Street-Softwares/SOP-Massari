@@ -1,12 +1,12 @@
 import logo from '../assets/imgs/logo/logo.webp'
 import heroDefaultImg from '../assets/imgs/hero/lawHero.webp'
 import imgFeatures from '../assets/imgs/features/imgServices.webp'
-
 import aboutImg from '../assets/imgs/about/aboutImg.webp'
-
 import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
-
 import imgSteps from '../assets/imgs/steps/imgSteps.webp'
+import img1 from '../assets/imgs/products/proLeite.webp'
+import img2 from '../assets/imgs/products/proEngorda.webp'
+import img3 from '../assets/imgs/products/protege.webp'
 
 import {
   ArrowRight,
@@ -112,13 +112,13 @@ const content = {
     },
     hero: {
       miniTag: 'NUTRIÇÃO ANIMAL DE ALTA PERFORMANCE',
-      FirstPartTitle: 'Pecuária que produz com',
+      FirstPartTitle: 'Nutrição animal que',
       DestaquePartTitle: (
         <p>
-          <span className="italic relative inline-block">responsabilidade</span>
+          <span className="italic relative inline-block">impulsiona</span>
         </p>
       ),
-      SecondPartTitle: '',
+      SecondPartTitle: 'a pecuária',
       subtitle: (
         <p>
           Tradição, tecnologia e compromisso com a qualidade em cada etapa da
@@ -315,6 +315,7 @@ const content = {
           usage: {
             text: '1 kg para cada 30kg sal ou 10g por animal/dia',
           },
+          img: img1,
         },
         card2: {
           badge: {
@@ -328,6 +329,7 @@ const content = {
             title: 'Modo de Usar',
             text: '1 kg para cada 30 kg de sal ou 10 g por animal/dia',
           },
+          img: img2,
         },
         card3: {
           badge: {
@@ -341,6 +343,7 @@ const content = {
             title: 'Modo de Usar',
             text: '1 kg para cada 30 kg de ração, ou 10 g por animal/dia',
           },
+          img: img3,
         },
       },
     },

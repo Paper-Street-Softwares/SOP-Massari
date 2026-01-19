@@ -64,7 +64,7 @@ function NavbarNovaTemplate({
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent ${
           isScrolled
             ? `${backgrondMode} backdrop-blur-md py-2 shadow-sm border-shadowHero/10 h-auto`
-            : 'bg-primaryDark border-border/40 py-2 phone2:h-auto'
+            : 'bg-primaryDark border-border/40 py-3 phone2:h-auto'
         }`}
       >
         <div className="container mx-auto flex items-center m-auto max-w-[1215px] h-full w-[90%] justify-between py-2">

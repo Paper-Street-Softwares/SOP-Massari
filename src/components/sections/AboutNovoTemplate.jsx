@@ -114,12 +114,12 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
                 <div className="space-y-4">
                   {[
                     {
-                      title: 'Defesa Estratégica',
-                      desc: 'Táticas sob medida para cada caso.',
+                      title: 'Acompanhamento Técnico Especializado',
+                      desc: 'Cada rebanho tem suas particularidades, e nossas soluções são definidas conforme a realidade de cada sistema produtivo.',
                     },
                     {
-                      title: 'Transparência Real',
-                      desc: 'Tudo claro sobre riscos e andamento.',
+                      title: 'Transparência nos Resultados',
+                      desc: 'Você acompanha de forma clara a evolução do desempenho, da saúde e da produtividade do rebanho.',
                     },
                   ].map((item, idx) => (
                     <div key={idx} className="flex items-start gap-4">
@@ -127,7 +127,7 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
                         <CheckCircle2 className="w-5 h-5" />
                       </div>
                       <div>
-                        <h3 className={`font-bold font-mainFont ${text}`}>
+                        <h3 className={`font-bold font-secondFont ${text}`}>
                           {item.title}
                         </h3>
                         <p

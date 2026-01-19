@@ -4,7 +4,7 @@ import { Sprout, CheckCircle2, ArrowRight } from 'lucide-react'
 import ButtonReflexo from './interactives/ButtonReflexo'
 import content from '../content/content'
 
-function ProductCard({ target, tagline, name, description, usage }) {
+function ProductCard({ target, tagline, name, description, usage, img }) {
   return (
     <div>
       <motion.div
@@ -48,6 +48,14 @@ function ProductCard({ target, tagline, name, description, usage }) {
               <p className="text-sm text-corOutrosTextosPreto">{usage}</p>
             </div>
           </div>
+        </div>
+
+        <div>
+          <img
+            src={img}
+            alt="imagem de Produtos"
+            className="w-auto px-6 pb-6"
+          />
         </div>
 
         <div className="bg-secondary/30 px-8 py-4 border-t border-border/50 flex justify-between items-center">

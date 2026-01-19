@@ -51,11 +51,11 @@ function FaqNovoTemplate({ colorMode }) {
               >
                 {content.texts.faq.miniTag}
               </span>
-              <h2
+              <h1
                 className={`text-3xl md:text-4xl font-mainFont font-medium mb-2 ${text}`}
               >
                 {content.texts.faq.title}
-              </h2>
+              </h1>
               <p
                 className={`text-sm font-secondFont font-light opacity-90 ${textOpacity}`}
               >
@@ -78,12 +78,12 @@ function FaqNovoTemplate({ colorMode }) {
                 >
                   <AccordionTrigger
                     colorMode={colorMode}
-                    className={`text-lg font-medium font-mainFont text-left py-6 ${text}`}
+                    className={`text-xl font-medium font-mainFont text-left py-6 ${text}`}
                   >
                     {faq.question}
                   </AccordionTrigger>
                   <AccordionContent
-                    className={`font-secondFont font-light pb-6 leading-relaxed ${textOpacity}`}
+                    className={`font-secondFont font-light pb-6 leading-relaxed text-md ${textOpacity}`}
                   >
                     {faq.answer}
                   </AccordionContent>

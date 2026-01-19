@@ -62,7 +62,7 @@ function CtaNovoTemplate({ colorMode }) {
             {/* <div>
               <FormAndAdress />
             </div> */}
-            <div className="flex flex-col gap-4 pt-4 w-fit justify-center items-center mx-auto">
+            <div className="flex flex-col gap-4 w-fit justify-center items-center mx-auto">
               <ButtonReflexo
                 icon={
                   <svg

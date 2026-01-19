@@ -77,6 +77,7 @@ function GuidanceSection({ colorMode }) {
                   description={product.description}
                   usage={product.usage.text}
                   colorMode={colorMode}
+                  img={product.img}
                 />
               ))}
             </div>
