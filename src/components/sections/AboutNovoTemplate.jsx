@@ -30,12 +30,12 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
 
   switch (colorMode) {
     case 'light':
-      backgroundMode = 'bg-secondary/60'
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      textDestaque = 'text-primaryDark'
-      cardBg = 'bg-white/10'
-      iconBg = 'bg-primaryDark/10 text-primaryDark'
+      backgroundMode = 'bg-primaryDark'
+      text = 'text-corTitulosBranca'
+      textOpacity = 'text-corOutrosTextosBranca'
+      textDestaque = 'text-white font-bold'
+      cardBg = 'bg-gray-800/20'
+      iconBg = 'bg-primaryLight/20 text-primaryLight'
       buttonBg = 'bg-primaryDark'
       image = ' border-[8px] border-white'
       break
@@ -155,7 +155,8 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
                     }
                     link={content.texts.links.ctaWhatsapp}
                     label={content.texts.hero.ctaButtonText}
-                    colorMode={colorMode}
+                    // colorMode={colorMode}
+                    className="w-fit bg-white/70 text-primaryDark"
                   />
                   <ButtonReflexo
                     id="ligar"
@@ -199,7 +200,7 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
             className="font-secondFont bg-white p-4 rounded-md"
             closeIcon={<X size={20} />}
             header={
-              <span className="font-mainFont px-4">
+              <span className="font-secondFont px-4">
                 {content.texts.about.titleModal}
               </span>
             }

@@ -63,7 +63,7 @@ function NavbarNovaTemplate({
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent ${
           isScrolled
-            ? `${backgrondMode} backdrop-blur-md py-2 shadow-sm border-shadowHero/10 h-auto`
+            ? `${backgrondMode} backdrop-blur-md py-2 shadow-sm border-shadowHero/10 h-auto border-b border-white`
             : 'bg-primaryDark border-border/40 py-3 phone2:h-auto'
         }`}
       >
@@ -119,7 +119,7 @@ function NavbarNovaTemplate({
                 </svg>
               }
               // colorMode={colorMode}
-              className="w-fit "
+              className="w-fit bg-white/70 text-primaryDark"
             />
           </div>
 

@@ -21,7 +21,7 @@ export default {
         // Principais
         primaryLight: '#38D83D',
         primaryDark: '#236E26',
-        secondary: '#E0E9E2',
+        secondary: '#236E26',
         terciary: '#F1F7F2',
         quartenary: '#FAFCFA',
         borderImage: '#292929',

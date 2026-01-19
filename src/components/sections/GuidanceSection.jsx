@@ -12,10 +12,10 @@ function GuidanceSection({ colorMode }) {
 
   switch (colorMode) {
     case 'light':
-      backgroundMode = 'bg-secondary/60'
-      text = 'text-corTitulosPreto'
-      textOpacity = 'text-corOutrosTextosPreto'
-      textDestaque = 'text-primaryDark'
+      backgroundMode = 'bg-secondary'
+      text = 'text-corTitulosBranca'
+      textOpacity = 'text-corOutrosTextosBranca'
+      textDestaque = 'text-white'
       break
 
     case 'dark':

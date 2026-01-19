@@ -78,7 +78,7 @@ function FaqNovoTemplate({ colorMode }) {
                 >
                   <AccordionTrigger
                     colorMode={colorMode}
-                    className={`text-xl font-medium font-mainFont text-left py-6 ${text}`}
+                    className={`text-xl font-medium font-secondFont text-left py-6 ${text}`}
                   >
                     {faq.question}
                   </AccordionTrigger>

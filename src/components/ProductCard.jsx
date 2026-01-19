@@ -54,7 +54,7 @@ function ProductCard({ target, tagline, name, description, usage, img }) {
           <img
             src={img}
             alt="imagem de Produtos"
-            className="w-auto px-6 pb-6"
+            className="w-auto px-6 pb-6 desktop1:px-12 desktop1:pb-8"
           />
         </div>
 
