@@ -12,7 +12,7 @@ function ProductCard({ target, tagline, name, description, usage, img }) {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="group relative bg-white rounded-2xl shadow-sm border border-border/50 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-700 flex flex-col h-full"
+        className="group relative bg-white rounded-2xl shadow-sm border border-border/50 overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-700 flex flex-col h-full max-w-[380px] mx-auto"
       >
         {/* Decorative top strip */}
         <div className="h-2 w-full bg-gradient-to-r from-primaryDark to-primaryDark/80" />
@@ -54,7 +54,7 @@ function ProductCard({ target, tagline, name, description, usage, img }) {
           <img
             src={img}
             alt="imagem de Produtos"
-            className="w-auto px-6 pb-6 desktop1:px-12 desktop1:pb-8"
+            className="w-[300px] px-6 pb-6 desktop1:px-12 desktop1:pb-8 mx-auto"
           />
         </div>
 
