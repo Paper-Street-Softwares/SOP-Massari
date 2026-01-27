@@ -72,7 +72,7 @@ function NavbarNovaTemplate({
             className={`flex flex-col z-20 relative  ${
               isScrolled
                 ? 'w-[20%] tablet1:w-[15%] tablet2:w-[15%] desktop1:w-[6%] desktop3:w-[5%] transition-all duration-700  translate-x-[180%] phone2:translate-x-[180%] tablet1:translate-x-[265%] desktop1:translate-x-0'
-                : 'w-[30%] phone2:w-[25%] phone3:w-[25%] tablet1:w-[20%] tablet2:w-[20%] desktop1:w-[9%] desktop3:w-[8%] transition-all duration-700  translate-x-[95%] phone2:translate-x-[130%] tablet1:translate-x-[180%] desktop1:translate-x-0'
+                : 'w-[35%] phone2:w-[25%] phone3:w-[25%] tablet1:w-[20%] tablet2:w-[20%] desktop1:w-[9%] desktop3:w-[8%] transition-all duration-700 translate-x-[80%] phone2:translate-x-[135%] tablet1:translate-x-[180%] tablet2:translate-x-[190%] desktop1:translate-x-0'
             }`}
           >
             {' '}
