@@ -118,7 +118,7 @@ const content = {
           <span className="italic relative inline-block">impulsiona</span>
         </p>
       ),
-      SecondPartTitle: 'a pecuária',
+      SecondPartTitle: ' a pecuária',
       subtitle: (
         <p>
           Tradição, tecnologia e compromisso com a qualidade em cada etapa da

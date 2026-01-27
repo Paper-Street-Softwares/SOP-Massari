@@ -197,8 +197,8 @@ function DiferenceProducts({ colorMode }) {
                   <h4 className={`font-bold mb-2 ${text}`}>Benefícios</h4>
                   <ul className={`space-y-2 ${textOpacity}`}>
                     <li className="flex items-start gap-2">
-                      <span className={`${bulletRight} mt-1`}>•</span> greenuzem
-                      a presença de bactérias patogênicas
+                      <span className={`${bulletRight} mt-1`}>•</span> Reduzem a
+                      presença de bactérias patogênicas
                     </li>
                     <li className="flex items-start gap-2">
                       <span className={`${bulletRight} mt-1`}>•</span> Melhoram
