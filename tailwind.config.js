@@ -28,7 +28,7 @@ export default {
 
         // Copys
         corTitulosBranca: '#FFFFFF',
-        corOutrosTextosBranca: '#F1F1F1',
+        corOutrosTextosBranca: '#FAFCFA',
         corTitulosPreto: ' #000000',
         corOutrosTextosPreto: '#666666',
 

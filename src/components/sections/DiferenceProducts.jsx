@@ -117,7 +117,7 @@ function DiferenceProducts({ colorMode }) {
 
               <div className="space-y-6">
                 <div>
-                  <h4 className={`font-bold mb-2 ${text}`}>O que são?</h4>
+                  <h1 className={`font-bold mb-2 ${text}`}>O que são?</h1>
                   <p className={textOpacity}>
                     Microrganismos vivos (bactérias e leveduras) adicionados à
                     alimentação.
@@ -125,7 +125,7 @@ function DiferenceProducts({ colorMode }) {
                 </div>
 
                 <div>
-                  <h4 className={`font-bold mb-2 ${text}`}>Função Principal</h4>
+                  <h1 className={`font-bold mb-2 ${text}`}>Função Principal</h1>
                   <p className={textOpacity}>
                     Equilíbrio da microbiota intestinal e ruminal, favorecendo
                     as "bactérias do bem".
@@ -133,7 +133,7 @@ function DiferenceProducts({ colorMode }) {
                 </div>
 
                 <div>
-                  <h4 className={`font-bold mb-2 ${text}`}>Benefícios</h4>
+                  <h1 className={`font-bold mb-2 ${text}`}>Benefícios</h1>
                   <ul className={`space-y-2 ${textOpacity}`}>
                     <li className="flex items-start gap-2">
                       <span className={`${bulletLeft} mt-1`}>•</span> Aumentam a
@@ -169,16 +169,16 @@ function DiferenceProducts({ colorMode }) {
                 >
                   <Leaf className="w-6 h-6" />
                 </div>
-                <h3
+                <h1
                   className={`text-3xl font-display font-bold ${textDestaqueNegative}`}
                 >
                   Prebióticos
-                </h3>
+                </h1>
               </div>
 
               <div className="space-y-6">
                 <div>
-                  <h4 className={`font-bold mb-2 ${text}`}>O que são?</h4>
+                  <h1 className={`font-bold mb-2 ${text}`}>O que são?</h1>
                   <p className={textOpacity}>
                     Fibras e compostos não digeríveis que alimentam as bactérias
                     benéficas.
@@ -186,7 +186,7 @@ function DiferenceProducts({ colorMode }) {
                 </div>
 
                 <div>
-                  <h4 className={`font-bold mb-2 ${text}`}>Função Principal</h4>
+                  <h1 className={`font-bold mb-2 ${text}`}>Função Principal</h1>
                   <p className={textOpacity}>
                     Estimular o crescimento das bactérias boas e melhorar o
                     ambiente intestinal.
@@ -194,7 +194,7 @@ function DiferenceProducts({ colorMode }) {
                 </div>
 
                 <div>
-                  <h4 className={`font-bold mb-2 ${text}`}>Benefícios</h4>
+                  <h1 className={`font-bold mb-2 ${text}`}>Benefícios</h1>
                   <ul className={`space-y-2 ${textOpacity}`}>
                     <li className="flex items-start gap-2">
                       <span className={`${bulletRight} mt-1`}>•</span> Reduzem a
