@@ -10,6 +10,7 @@ export default function ButtonReflexo({
   className,
   bgClass,
   id,
+  shineClass,
   ...props
 }) {
   const { colorMode, whatsAppColor } = useColorMode()
@@ -27,12 +28,12 @@ export default function ButtonReflexo({
     dark: 'bg-white/40',
     default: 'bg-black/40',
   }
+  const shineColor = shineClass ?? shineThemes[colorMode]
 
   const colors = effectiveWhatsAppColor
     ? whatsAppThemes[colorMode]
-    : bgClass ?? themes[colorMode]
+    : (bgClass ?? themes[colorMode])
 
-  const shineColor = shineThemes[colorMode]
   const spacing = padding || 'px-6 py-3'
 
   const { showGlobalButton } = useColorMode()

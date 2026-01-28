@@ -119,7 +119,8 @@ function NavbarNovaTemplate({
                 </svg>
               }
               // colorMode={colorMode}
-              className="w-fit bg-white/70 text-primaryDark"
+              className="w-fit bg-white text-primaryDark"
+              shineClass="bg-primaryDark/40"
             />
           </div>
 
@@ -185,7 +186,8 @@ function NavbarNovaTemplate({
                     link={content.texts.links.ctaWhatsapp}
                     label={content.texts.navbar.ctaButtonText}
                     // colorMode={colorMode}
-                    className="w-fit bg-white/80 text-primaryDark"
+                    className="w-fit bg-white text-primaryDark"
+                    shineClass="bg-primaryDark/40"
                   />
                 </div>
               </motion.div>
