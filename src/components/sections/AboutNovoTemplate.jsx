@@ -156,7 +156,8 @@ function AboutNovoTemplate({ ButtonModal, colorMode }) {
                     link={content.texts.links.ctaWhatsapp}
                     label={content.texts.hero.ctaButtonText}
                     // colorMode={colorMode}
-                    className="w-fit bg-white/70 text-primaryDark"
+                    className="w-fit bg-white text-primaryDark"
+                    shineClass="bg-primaryDark/40"
                   />
                   <ButtonReflexo
                     id="ligar"
